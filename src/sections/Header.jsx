@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="bg-black flex justify-between items-center px-6 pt-8 pb-5">
+    <div className="bg-black flex justify-between items-center px-6 pt-4 pb-3">
       <div className="flex-1">
         <h1 className="text-white uppercase font-body font-semibold cursor-pointer">
           La Caravana
