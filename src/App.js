@@ -4,7 +4,7 @@ const App = () => {
   return (
     //NAVIGATION :
     //page Home
-    <div>
+    <div className="bg-black">
       <Header />
       <Hero />
       <AboutUs />

@@ -9,7 +9,7 @@ const PizzaPic = ({ position }) => {
     );
   } else if (position === 'top') {
     return (
-      <div className="flex justify-center items-center mb-20">
+      <div className="flex justify-center items-center">
         <img src="./assets/pizza-b.png" />
       </div>
     );

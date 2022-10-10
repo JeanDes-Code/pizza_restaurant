@@ -10,9 +10,9 @@ const Hero = () => {
             title="La Caravana"
             bold={true}
             height="4px"
-            width="300px"
+            width="310px"
           />
-          <p className="font-body text-xl text-white text-center w-[45%] mt-2 leading-8 tracking-wider">
+          <p className="font-body text-xl text-white text-center w-[45%] pt-3 leading-8 tracking-wider">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             ac placerat dui. Vestibulum ut felis et lorem porta congue vitae nec
             turpis. Aliquam quis leo at nunc tempor faucibus et ac massa.
