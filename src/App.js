@@ -1,4 +1,4 @@
-import { Header, AboutUs, FindUs, OurMenu, Footer } from './sections';
+import { Header, Hero, AboutUs, FindUs, OurMenu, Footer } from './sections';
 
 const App = () => {
   return (
@@ -6,6 +6,7 @@ const App = () => {
     //page Home
     <div>
       <Header />
+      <Hero />
       <AboutUs />
       <FindUs />
       <OurMenu />

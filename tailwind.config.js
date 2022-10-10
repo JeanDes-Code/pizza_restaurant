@@ -12,6 +12,9 @@ module.exports = {
         white: '#fff',
         gold: '#f2c94c',
       },
+      backgroundImage: {
+        wood: "url('./assets/wood-bg.png')",
+      },
     },
   },
   plugins: [],
