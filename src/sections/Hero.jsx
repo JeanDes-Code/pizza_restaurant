@@ -15,7 +15,7 @@ const Hero = () => {
             turpis. Aliquam quis leo at nunc tempor faucibus et ac massa.
           </p>
         </div>
-        <div className="h-[100vh] absolute right-0 left-0 bottom-0 z-0 bg-gradient-to-t from-black" />
+        <div className="h-full absolute right-0 left-0 bottom-0 z-0 bg-gradient-to-t from-black" />
         <div className="z-10 relative">
           {' '}
           <PizzaPic position="bottom" />{' '}
