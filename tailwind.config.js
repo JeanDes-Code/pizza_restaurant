@@ -2,6 +2,10 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    fontFamily: {
+      body: ['Ruda'],
+      title: ['Quattrocento'],
+    },
     extend: {
       colors: {
         black: '#000',

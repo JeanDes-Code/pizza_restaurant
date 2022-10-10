@@ -2,6 +2,8 @@ import { Header, AboutUs, FindUs, OurMenu, Footer } from './sections';
 
 const App = () => {
   return (
+    //NAVIGATION :
+    //page Home
     <div>
       <Header />
       <AboutUs />
@@ -9,6 +11,7 @@ const App = () => {
       <OurMenu />
       <Footer />
     </div>
+    //page Menu
   );
 };
 
