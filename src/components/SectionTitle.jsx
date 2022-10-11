@@ -21,7 +21,7 @@ const SectionTitle = ({ title, width, height, bold }) => (
       className={`bg-gold sm:hidden`}
       style={{
         width: '80%',
-        height: '6px',
+        height: '3px',
         opacity: title === 'About Us' ? '0.6' : '1',
       }}
     />

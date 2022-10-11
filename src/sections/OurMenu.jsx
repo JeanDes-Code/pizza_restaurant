@@ -29,11 +29,7 @@ const OurMenu = () => {
           />
         </div>
         <div className="w-full flex justify-center items-center pt-20">
-          <Button
-            title="MENU"
-            CTA={'navigateToMenuPAGE'}
-            padding="px-10 py-4"
-          />
+          <Button title="MENU" padding="px-10 py-4" />
         </div>
       </div>{' '}
     </>
