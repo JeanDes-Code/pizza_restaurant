@@ -31,7 +31,7 @@ const Header = () => {
 
           <a
             className="text-white mr-8 font-body uppercase hover:border-b border-gold"
-            href="#"
+            href="#aboutus"
             title="About Us"
           >
             {' '}
@@ -89,7 +89,7 @@ const Header = () => {
 
             <a
               className="text-white mr-8 font-body uppercase hover:border-b border-gold"
-              href="#"
+              href="#aboutus"
               title="About Us"
             >
               {' '}

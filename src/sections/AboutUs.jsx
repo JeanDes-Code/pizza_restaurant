@@ -3,7 +3,10 @@ import { Button, SectionTitle } from './../components';
 
 const AboutUs = () => {
   return (
-    <div className="bg-black w-full flex justify-center flex-col lg:flex-row align-center sm:p-20 p-4">
+    <div
+      id="aboutus"
+      className="bg-black w-full flex justify-center flex-col lg:flex-row align-center sm:p-20 p-4"
+    >
       <div className="flex flex-col justify-between w-full lg:w-6/12 pt-5">
         <div>
           <SectionTitle title="About Us" height="9px" width="58%" />
