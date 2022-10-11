@@ -18,7 +18,7 @@ const MenuSection = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[100%]">
       <SectionTitle title="Our Menu" width="30%" height="6px" />
-      <div className="flex space-x-6 items-center justify-center p-20 overflow-scroll w-full">
+      <div className="flex space-x-6 items-center justify-center p-20 overflow-x-auto w-full">
         <h2
           onClick={() => filterSearch('All')}
           className={`uppercase cursor-pointer font-body text-2xl ${
