@@ -3,11 +3,11 @@ import { Button, SectionTitle } from './../components';
 
 const AboutUs = () => {
   return (
-    <div className="bg-black w-full flex justify-center align-center p-20">
-      <div className="flex flex-col justify-between w-[50%] pt-5">
+    <div className="bg-black w-full flex justify-center flex-col lg:flex-row align-center p-20">
+      <div className="flex flex-col justify-between w-full lg:w-6/12 pt-5">
         <div>
           <SectionTitle title="About Us" height="9px" width="58%" />
-          <p className="font-body text-xl text-white pt-6 leading-8 tracking-wider w-[58%]">
+          <p className="font-body text-xl text-white pt-6 leading-8 tracking-wider lg:w-[58%]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the industry's standard

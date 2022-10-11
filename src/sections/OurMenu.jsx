@@ -16,20 +16,24 @@ const OurMenu = () => {
             remaining essentially unchanged.
           </p>
         </div>
-        <div className="flex space-x-8 items-center">
+        <div className="flex md:space-x-8 items-center md:flex-row flex-col">
           <img
             src="./assets/kitchen1.png"
             alt="kitchen view-1"
-            className="w-6/12"
+            className="md:w-6/12 w-full mb-6 md:mb-0"
           />
           <img
             src="./assets/kitchen2.png"
             alt="kitchen view-2"
-            className="w-6/12"
+            className="md:w-6/12 w-full"
           />
         </div>
         <div className="w-full flex justify-center items-center pt-20">
-          <Button title="MENU" padding="px-10 py-4" />
+          <Button
+            title="MENU"
+            CTA={'navigateToMenuPAGE'}
+            padding="px-10 py-4"
+          />
         </div>
       </div>{' '}
     </>
