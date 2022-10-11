@@ -4,10 +4,10 @@ import { Button, SectionTitle } from '../components';
 const OurMenu = () => {
   return (
     <>
-      <div className="bg-black w-full flex flex-col justify-center pt-10 pb-20 px-20">
+      <div className="bg-black w-full flex flex-col justify-center sm:pt-10 pb-20 sm:px-20 p-4">
         <div className="flex flex-col items-center w-full mt-20 pt-20">
           <SectionTitle title="Our Menu" height="9px" width="150%" />
-          <p className="font-body text-xl text-white text-center pt-3 leading-8 tracking-wider pb-20 px-10">
+          <p className="font-body text-xl text-white text-center pt-3 leading-8 tracking-wider pb-20 sm:px-10">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

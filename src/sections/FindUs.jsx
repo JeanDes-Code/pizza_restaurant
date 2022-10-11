@@ -3,7 +3,7 @@ import { SectionTitle } from './../components';
 
 const FindUs = () => {
   return (
-    <div className="bg-black w-full flex flex-col justify-center align-center p-20">
+    <div className="bg-black w-full flex flex-col justify-center align-center p-4 sm:p-20">
       <div className="justify-center items-center flex-col pt-5 text-center w-full">
         <SectionTitle title="Find Us" height="9px" width="33%" />
       </div>

@@ -9,13 +9,21 @@ const SectionTitle = ({ title, width, height, bold }) => (
     <h2
       className={`font-title ${
         bold ? 'font-bold' : 'font-normal'
-      } uppercase text-white ${bold ? 'text-6xl' : 'text-5xl'} `}
+      } uppercase text-white ${bold ? 'sm:text-6xl' : 'sm:text-5xl'} text-3xl `}
     >
       {title}
     </h2>
     <div
-      className={`bg-gold`}
+      className={`bg-gold hidden sm:block`}
       style={{ width, height, opacity: title === 'About Us' ? '0.6' : '1' }}
+    />
+    <div
+      className={`bg-gold sm:hidden`}
+      style={{
+        width: '80%',
+        height: '6px',
+        opacity: title === 'About Us' ? '0.6' : '1',
+      }}
     />
   </div>
 );

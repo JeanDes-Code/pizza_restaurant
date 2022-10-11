@@ -13,7 +13,7 @@ const Footer = () => {
           title="La Caravana"
           bold={true}
           height="4px"
-          width="120%"
+          width="80%"
         />
         <div className="flex justify-center space-x-10 w-full mt-10 pb-20">
           <AiFillInstagram size={60} color="white" />
